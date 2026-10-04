@@ -7,7 +7,7 @@
 <h2 align="center">🚀 A little corner for my work</h2>
 
 <h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3200&pause=900&color=C4B5FD&center=true&vCenter=true&width=700&lines=Mid-level+Developer+at+XIIA;Keep+growing%2C+keep+shipping;Crafting+sleek+web+%26+mobile+apps" alt="Intro animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3200&pause=900&color=67E8F9&center=true&vCenter=true&width=700&lines=Mid-level+Developer+at+XIIA;Keep+growing%2C+keep+shipping;Crafting+sleek+web+%26+mobile+apps" alt="Intro animation" />
 </h3>
 
 <img align="right" src="./assets/girl-4.jpg" width="280" alt="Girl cartoon" />
