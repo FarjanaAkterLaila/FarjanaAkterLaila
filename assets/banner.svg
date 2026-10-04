@@ -5,43 +5,33 @@
       <stop offset="100%" stop-color="#0F172A"/>
     </linearGradient>
     <filter id="hiGlow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <clipPath id="typeHi">
-      <rect x="430" y="40" width="0" height="70">
-        <animate attributeName="width" values="0;420;420;0" keyTimes="0;0.35;0.8;1" dur="4.5s" repeatCount="indefinite"/>
-      </rect>
-    </clipPath>
   </defs>
+
   <rect width="1280" height="280" rx="8" fill="url(#nbg)"/>
+
   <g stroke="#22D3EE" stroke-opacity="0.14" stroke-width="1">
     <path d="M0 70 H1280 M0 140 H1280 M0 210 H1280"/>
     <path d="M160 0 V280 M320 0 V280 M480 0 V280 M640 0 V280 M800 0 V280 M960 0 V280 M1120 0 V280"/>
   </g>
+
   <circle cx="180" cy="70" r="90" fill="#22D3EE" fill-opacity="0.16">
     <animate attributeName="r" values="80;115;80" dur="6s" repeatCount="indefinite"/>
   </circle>
   <circle cx="1120" cy="210" r="110" fill="#22D3EE" fill-opacity="0.1">
     <animate attributeName="cy" values="210;170;210" dur="8s" repeatCount="indefinite"/>
   </circle>
-  <g transform="translate(368, 38)">
-    <g>
-      <animateTransform attributeName="transform" type="rotate" values="-16 32 48;14 32 48;-16 32 48" dur="1.1s" repeatCount="indefinite"/>
-      <path d="M28 58 c-10 0-16-8-16-16 v-18 c0-4 3-7 7-7 s7 3 7 7 v10" fill="#FDE68A" stroke="#FBBF24" stroke-width="2"/>
-      <path d="M26 22 c0-5 3-8 7-8 s7 3 7 8 v20" fill="#FDE68A" stroke="#FBBF24" stroke-width="2"/>
-      <path d="M40 26 c0-5 3-8 7-8 s7 3 7 8 v18" fill="#FDE68A" stroke="#FBBF24" stroke-width="2"/>
-      <path d="M54 32 c0-4 3-7 7-7 s6 3 6 7 v16" fill="#FDE68A" stroke="#FBBF24" stroke-width="2"/>
-      <path d="M18 42 c-6 2-10 8-8 14 4 12 18 18 28 14 8-3 14-10 16-18" fill="#FDE68A" stroke="#FBBF24" stroke-width="2"/>
-    </g>
-  </g>
-  <text clip-path="url(#typeHi)" x="640" y="88" text-anchor="middle" fill="#67E8F9" font-family="Segoe UI, Arial, sans-serif" font-size="28" letter-spacing="10" font-weight="700" filter="url(#hiGlow)">HI, I'M</text>
-  <rect x="858" y="64" width="10" height="28" fill="#67E8F9">
-    <animate attributeName="opacity" values="1;0;1" dur="0.7s" repeatCount="indefinite"/>
-  </rect>
+
+  <text x="640" y="88" text-anchor="middle" fill="#67E8F9" font-family="Segoe UI, Arial, sans-serif" font-size="30" letter-spacing="8" font-weight="700" filter="url(#hiGlow)">
+    HI, I'M
+    <animate attributeName="opacity" values="0.45;1;0.45" dur="2.2s" repeatCount="indefinite"/>
+  </text>
+
   <text x="640" y="168" text-anchor="middle" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800">FARJANA AKTER LAILA</text>
   <rect x="490" y="196" width="300" height="3" rx="2" fill="#22D3EE">
     <animate attributeName="opacity" values="0.35;1;0.35" dur="2.2s" repeatCount="indefinite"/>
