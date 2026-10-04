@@ -1,12 +1,11 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=32&duration=2500&pause=900&color=67E8F9&center=true&vCenter=true&background=020617&width=1280&height=72&lines=HI%2C+I%27M" alt="HI, I'M" />
-  <img src="./assets/banner.svg" alt="Farjana Akter Laila" width="100%" />
+  <img src="./assets/banner.svg" alt="Hi, I'm Farjana Akter Laila" width="100%" />
 </div>
 
 <h2 align="center">🚀 A little corner for my work</h2>
 
 <h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3200&pause=900&color=67E8F9&center=true&vCenter=true&width=780&lines=Mid-level+Developer+at+XIIA+%7C+mobile+apps;Keep+growing%2C+keep+shipping;Crafting+sleek+web+%26+mobile+apps" alt="Intro animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3200&pause=900&color=67E8F9&center=true&vCenter=true&width=780&lines=Mid-level+Developer+at+XIIA;Keep+growing%2C+keep+shipping;Crafting+sleek+web+%26+mobile+apps" alt="Intro animation" />
 </h3>
 
 <img align="right" src="./assets/girl-4.jpg" width="180" alt="Girl cartoon" />
