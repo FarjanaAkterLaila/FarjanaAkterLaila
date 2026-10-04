@@ -4,11 +4,13 @@
       <stop offset="0%" stop-color="#020617"/>
       <stop offset="100%" stop-color="#0F172A"/>
     </linearGradient>
-    <clipPath id="hiType">
-      <rect id="hiMask" x="500" y="48" width="0" height="52" rx="2">
-        <animate attributeName="width" values="0;268;268;0" keyTimes="0;0.42;0.78;1" dur="4.2s" repeatCount="indefinite"/>
-      </rect>
-    </clipPath>
+    <filter id="hiGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <rect width="1280" height="280" rx="8" fill="url(#nbg)"/>
@@ -25,11 +27,9 @@
     <animate attributeName="cy" values="210;170;210" dur="8s" repeatCount="indefinite"/>
   </circle>
 
-  <text clip-path="url(#hiType)" x="634" y="88" text-anchor="middle" fill="#67E8F9" font-family="Segoe UI, Arial, sans-serif" font-size="30" letter-spacing="10" font-weight="700">HI, I'M</text>
-
-  <rect x="500" y="62" width="3" height="28" fill="#67E8F9">
-    <animate attributeName="x" values="500;768;768;500" keyTimes="0;0.42;0.78;1" dur="4.2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0;1" dur="0.55s" repeatCount="indefinite"/>
+  <text x="620" y="88" text-anchor="middle" fill="#67E8F9" font-family="Segoe UI, Arial, sans-serif" font-size="30" letter-spacing="10" font-weight="700" filter="url(#hiGlow)">HI, I'M</text>
+  <rect x="768" y="62" width="3" height="28" fill="#67E8F9">
+    <animate attributeName="opacity" values="1;0;1" dur="0.7s" repeatCount="indefinite"/>
   </rect>
 
   <text x="640" y="168" text-anchor="middle" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800">FARJANA AKTER LAILA</text>
