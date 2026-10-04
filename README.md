@@ -1,29 +1,16 @@
 <div align="center">
-  <img src="./assets/banner.svg" alt="Hi, I'm Farjana Akter Laila" width="100%" />
+  <img src="./assets/banner.svg" alt="Hi, I'm Farjana Akter Laila 👩‍💻" width="100%" />
 </div>
 
 <br/>
 
-<h2 align="center">👏 Welcome to my creative space! 👏</h2>
-
-<p align="center">
-  <i>✨ Building clean, fast, and friendly web & mobile apps with care 💜 ✨</i>
-</p>
+<h2 align="center">🚀 A little corner for my work</h2>
 
 <h3 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3200&pause=900&color=C4B5FD&center=true&vCenter=true&width=700&lines=Mid-level+Developer+at+XIIA;Keep+growing%2C+keep+shipping;Crafting+sleek+web+%26+mobile+apps" alt="Intro animation" />
 </h3>
 
-<table align="right">
-  <tr>
-    <td><img src="./assets/girl-1.jpg" width="140" alt="Girl cartoon 1" /></td>
-    <td><img src="./assets/girl-2.jpg" width="140" alt="Girl cartoon 2" /></td>
-  </tr>
-  <tr>
-    <td><img src="./assets/girl-3.jpg" width="140" alt="Girl cartoon 3" /></td>
-    <td><img src="./assets/girl-4.jpg" width="140" alt="Girl cartoon 4" /></td>
-  </tr>
-</table>
+<img align="right" src="./assets/girl-4.jpg" width="280" alt="Girl cartoon" />
 
 ### 👤 A little about me...
 
@@ -97,4 +84,3 @@ I'm a passionate **Mid-level Developer** who loves turning complex problems into
   <a href="https://github.com/FarjanaAkterLaila"><img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://www.linkedin.com/company/xiia"><img src="https://img.shields.io/badge/XIIA-7C3AED?style=for-the-badge" alt="XIIA" /></a>
 </p>
-
