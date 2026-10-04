@@ -1,39 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 280" width="1280" height="280">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 220" width="1280" height="220">
   <defs>
     <linearGradient id="nbg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#020617"/>
       <stop offset="100%" stop-color="#0F172A"/>
     </linearGradient>
-    <filter id="hiGlow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
-  <rect width="1280" height="280" rx="8" fill="url(#nbg)"/>
+  <rect width="1280" height="220" fill="url(#nbg)"/>
 
   <g stroke="#22D3EE" stroke-opacity="0.14" stroke-width="1">
-    <path d="M0 70 H1280 M0 140 H1280 M0 210 H1280"/>
-    <path d="M160 0 V280 M320 0 V280 M480 0 V280 M640 0 V280 M800 0 V280 M960 0 V280 M1120 0 V280"/>
+    <path d="M0 55 H1280 M0 110 H1280 M0 165 H1280"/>
+    <path d="M160 0 V220 M320 0 V220 M480 0 V220 M640 0 V220 M800 0 V220 M960 0 V220 M1120 0 V220"/>
   </g>
 
-  <circle cx="180" cy="70" r="90" fill="#22D3EE" fill-opacity="0.16">
-    <animate attributeName="r" values="80;115;80" dur="6s" repeatCount="indefinite"/>
+  <circle cx="180" cy="50" r="80" fill="#22D3EE" fill-opacity="0.16">
+    <animate attributeName="r" values="70;100;70" dur="6s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="1120" cy="210" r="110" fill="#22D3EE" fill-opacity="0.1">
-    <animate attributeName="cy" values="210;170;210" dur="8s" repeatCount="indefinite"/>
+  <circle cx="1120" cy="170" r="90" fill="#22D3EE" fill-opacity="0.1">
+    <animate attributeName="cy" values="170;130;170" dur="8s" repeatCount="indefinite"/>
   </circle>
 
-  <text x="640" y="88" text-anchor="middle" fill="#67E8F9" font-family="Segoe UI, Arial, sans-serif" font-size="30" letter-spacing="8" font-weight="700" filter="url(#hiGlow)">
-    HI, I'M
-    <animate attributeName="opacity" values="0.45;1;0.45" dur="2.2s" repeatCount="indefinite"/>
-  </text>
-
-  <text x="640" y="168" text-anchor="middle" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800">FARJANA AKTER LAILA</text>
-  <rect x="490" y="196" width="300" height="3" rx="2" fill="#22D3EE">
+  <text x="640" y="118" text-anchor="middle" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800">FARJANA AKTER LAILA</text>
+  <rect x="490" y="146" width="300" height="3" rx="2" fill="#22D3EE">
     <animate attributeName="opacity" values="0.35;1;0.35" dur="2.2s" repeatCount="indefinite"/>
   </rect>
 </svg>
